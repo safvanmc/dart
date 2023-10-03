@@ -1,14 +1,13 @@
-void main() {
-  int multiplier = 5;
-  print('Multiplication table for $multiplier:');
-  printMultiplicationTable(multiplier);
+void main(){
+  int mult=5;
+  //print('multiplication table for:$mult');
+  multitable(mult);
+
 }
-
-
-void printMultiplicationTable(int number) {
+void multitable(num) {
   for (int i = 1; i <= 10; i++) {
-    int result = number * i;
-    print('$number x $i = $result');
+    int result = num * i;
+    print('$num*$i=$result');
   }
 }
 
